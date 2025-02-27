@@ -30,7 +30,7 @@ await connectDB();
 // ✅ Middleware Configuration
 app.use(
   cors({
-    origin: ["https://experience.elluciancloud.com" , '/graphql'],
+    origin: ["https://experience.elluciancloud.com" , 'https://studentai-d13r.onrender.com/graphql'],
     credentials: true,
 	  
   })
