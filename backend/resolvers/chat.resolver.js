@@ -1,7 +1,7 @@
 import  { askQuestion } from "./testStCht.js";
 
 const chatResolver = {
-    Query: {
+    Mutation: {
         getChat : async (_,{input}) => {
             
             try {
