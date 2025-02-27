@@ -30,9 +30,9 @@ await connectDB();
 // ✅ Middleware Configuration
 app.use(
   cors({
-    origin: "*",
+    origin: ["https://experience.elluciancloud.com" , '/graphql'],
     credentials: true,
-	  methods: ["GET", "POST"],
+	  
   })
 );
 app.use(express.json());
